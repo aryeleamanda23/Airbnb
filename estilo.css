@@ -1,0 +1,46 @@
+a {
+	text-decoration: unset;
+	color: black;
+
+}
+#anuncio {
+	display: flex;
+	justify-content: center;
+}
+.quartos{
+	justify-content: space-around;
+	margin-bottom: 30px;
+	display: flex;
+
+
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.imgq {
+	width: 70%;
+	margin-left: 20px;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.flex > div {
+	flex: 1 1 200px;
+	margin: 10px;
+}
+.rodape {
+	display: inline-block;
+	width: 40px;
+	margin: 0 auto;
+	background-image: url(azul.jpeg);
+
+}
+p {
+	
+}
